@@ -1,0 +1,103 @@
+body {
+    height: 100;
+    margin: 0;
+    padding: 0;
+}
+
+  
+
+.gallery{
+    justify-content: center;    
+    display: flex;
+}
+  
+img {
+    justify-content: center;
+    width: 250px;
+    height: 330px;
+    margin: 0; /* Remove any default margin */
+    margin-right: 40px;
+  }
+
+h2 {
+    text-align: center;
+}
+
+.desct, .desg {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.desct{
+    font-weight: bolder;
+}
+
+.desg{
+    font-style: italic;
+}
+
+.mario-table, .creator-table, .dmoney-table, .quan-table {
+    margin-bottom: 40px;
+    align-items: center;
+    display: block;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #B22E2A;
+    color: white;
+    margin: 0 auto;
+    border-width: 10px;
+    border-style: none;
+    justify-content: center;
+    margin-bottom: 4px;
+    margin-top: 7px;
+}
+
+a#trailer {
+
+    color: #B22E2A;
+    margin: 0 auto;
+    border-width: 5px;
+    border-style: none;
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 7px;
+    text-decoration: none;
+    display: block;
+
+}
+
+a#showtimes{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+    background-color: #B22E2A ;
+    border-color:  #B22E2A ;
+    color: white;
+}
+
+.col1{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+/* Media queries for responsive layout */
+@media (max-width: 768px) {
+    .gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col1,
+    .col2 {
+      margin: 0;
+      margin-right: 20px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,39 @@
+footer{
+    background-color:#191719;
+    padding: 2px;
+    /* margin-left: 10px; */
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+    
+}
+
+/* .logo-footer {
+    padding: 5px; /* Adjust as needed */
+ 
+  
+.logo-footer img {
+    max-width: 20px; /* Ensures the image does not exceed its container */
+    height: auto; 
+    margin-right: 0.1px;
+    margin-left: 20px;
+}
+
+h5{
+    color: white;
+    margin-left: 20px;
+}
+
+.copyright{
+    float: right;
+    margin-top: 3px;
+    margin-right: 20px;
+    font-size: x-small;
+}
+
+span{
+    margin-left: 4px;
+    color: white;
+    font-size: x-small;
+}

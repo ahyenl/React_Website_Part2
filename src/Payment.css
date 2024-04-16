@@ -1,0 +1,9 @@
+.btnp a{
+   color: white; 
+   font-size: small;
+   text-decoration: none;
+}
+
+.btnp{
+    border-radius: 5px;
+}

@@ -1,0 +1,144 @@
+/* General styles */
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: block;
+  }
+  
+  .show-times {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Header */
+  
+  .header-table {
+    margin-bottom: 50px;
+  }
+  
+  h4 {
+    margin-left: 30px;
+  }
+  
+  /* Seat selection */
+  
+
+  
+  .screen {
+    border-style: solid;
+    border-color: #B22E2A;
+    position: relative;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+    height: 80px;
+    width: 230px;
+   
+
+  }
+  
+  .seats {
+    margin-left: 60px;
+    margin-right: 200px;
+  }
+  
+  th.seat-selection,
+  .container {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .seat {
+    background-color: #444451;
+    height: 15px;
+    width: 18px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #44445100;
+  }
+  
+  .seat.selected {
+    background-color:  #B22E2A;
+  }
+  
+  .seat.occupied {
+    background-color: #04AA6D;
+    cursor: default;
+  }
+  
+  .seat:hover {
+    transform: scale(1.05);
+  }
+  
+  .showcase {
+    /* background: rgba(0, 0, 0, 0.1); */
+    /* padding: 5px 10px; */
+    border-radius: 5px;
+    color: #777;
+    /* list-style-type: none; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: 10px;
+  }
+  
+  small.seat {
+    justify-content: space-between;
+  }
+  
+  .showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  
+  .showcase li small {
+    margin-left: 2px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  p.text {
+    margin: 5px 0;
+    margin-top: 30px;
+  }
+  
+  p.text span {
+    color: #B22E2A;
+  }
+  
+  span.none {
+    color: #B22E2A;
+  }
+
+  span#count, span#price{
+    font-size: medium;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 768px) {
+    .movie-info {
+      flex-direction: column-reverse;
+    }
+  
+    .seat-selection,
+    .showcase, table.seat-category {
+      width: 300px;
+      height: 300px;
+      overflow-x: auto;
+    }
+  
+    .screen {
+      width: 100%;
+      overflow-x: auto;
+    }
+  }
+  

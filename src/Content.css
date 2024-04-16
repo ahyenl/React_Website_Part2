@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+  
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: #d9d9d917 ; */
+    margin-left: 21px;
+    margin-right: 22px;
+   
+}
+  
+.trailertext h2{
+    /* margin-top: 80px;  */
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 30px;
+    color: #B22E2A;
+    letter-spacing: 5px;
+}
+
+
+
+.trailertext2{
+    /* margin-top: 40px;  */
+    margin-bottom: 40px;
+    font-size: medium;
+    color: #B22E2A;
+    font-family: 'Luckiest Guy';
+}
+
+
+.showing{
+    color: black;
+    float: left;
+    letter-spacing: 5px;
+    font-size: larger;
+    margin-right: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

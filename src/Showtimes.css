@@ -1,0 +1,119 @@
+h2{
+    text-align: center;
+    margin-left: 25px;
+}
+
+p{
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+h3{
+    text-align: left;
+    margin-left: 45px;
+}
+
+.header-table{
+    margin-left: 35px;
+    margin-right: 35px;
+    border-style: none;
+    background-color: #B22E2A;
+    height: 20px;
+   
+}
+
+.header-table th{
+
+    margin-right: 50px;
+    word-spacing: 2px;
+   
+}
+
+table{
+    justify-content: center;
+}
+
+.showtime-mario{
+    /* border-color: #B22E2A ;
+    border-style: solid; */
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.bg{
+   justify-content: center;
+    background-color: #D9D9D9;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 150px;
+
+}
+
+.mario-info{
+    border-style: solid;
+    border-color: #B22E2A;
+}
+
+
+.mario-info img{
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.mario-info {
+
+    margin-right: 20px;
+}
+
+.std, .dlby  {
+    border-style: solid;
+    border-color: #B22E2A;
+    background-color: white;
+    color: #B22E2A;
+    padding: 8px 8px 8px 8px;
+}
+
+.std-days, .dlby-days{
+    color: #B22E2A;
+
+
+}
+
+.buttont a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.description{
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+.tsmbm{
+    color: #B22E2A;
+    font-weight: bolder;
+}
+
+.dir, .stars, .writer{
+    font-size: smaller;
+    color: #B22E2A;
+}
+
+@media (max-width: 768px) {
+    .mario-info {
+      width: 100%;
+      overflow-x: auto;
+    }
+  
+    .mario-info th,
+    .mario-info td {
+      display: block;
+      white-space: nowrap;
+    }
+  }

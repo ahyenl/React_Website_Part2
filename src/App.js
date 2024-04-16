@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Content from './Content'; // Imports the Content component from the ./Content.js file
+import Header from './Header'; // Imports the Header component from the ./Header.js file
+import Footer from './Footer'; // Imports the Footer component from the ./Footer.js file
 
-function App() {
+
+export default function App() {    // Defines the App function as the default export
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // Creates a div element with the class name "App" 
+    <div className="App">  
+    {/* Renders the Header component  */}
+        <Header />   
+    {/* Renders the Content component        */}
+        <Content />   
+    {/* Renders the Footer component      */}
+        <Footer />       
     </div>
   );
 }
 
-export default App;
+
